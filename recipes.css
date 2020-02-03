@@ -1,0 +1,278 @@
+                                                                                                                        /* latin-ext */
+                                                                                                                    
+                                                                                                                    @font-face {
+                                                                                                                        font-family: 'Raleway';
+                                                                                                                        font-style: bol;
+                                                                                                                        font-weight: 100;
+                                                                                                                        src: local('Raleway Thin'), local('Raleway-Thin'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptsg8zYS_SKggPNwE44Q4FqPfE.woff2) format('woff2');
+                                                                                                                        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+                                                                                                                    }
+                                                                                                                    /* latin */
+                                                                                                                    
+                                                                                                                    @font-face {
+                                                                                                                        font-family: 'Raleway';
+                                                                                                                        font-style: normal;
+                                                                                                                        font-weight: 100;
+                                                                                                                        src: local('Raleway Thin'), local('Raleway-Thin'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptsg8zYS_SKggPNwE44TYFq.woff2) format('woff2');
+                                                                                                                        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    html,
+                                                                                                                    body,
+                                                                                                                    object,
+                                                                                                                    h1,
+                                                                                                                    h2 {
+                                                                                                                        border: 0;
+                                                                                                                        font-family: inherit;
+                                                                                                                        font-size: 100%;
+                                                                                                                        font-style: in;
+                                                                                                                        font-weight: inherit;
+                                                                                                                        padding: 25px;
+                                                                                                                        vertical-align: baseline;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    html {
+                                                                                                                        font-size: 62.5%;
+                                                                                                                        height: 100%;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    body {
+                                                                                                                        background: #000000;
+                                                                                                                        line-height: 2;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    article,
+                                                                                                                    aside,
+                                                                                                                    details,
+                                                                                                                    figcaption,
+                                                                                                                    figure,
+                                                                                                                    footer,
+                                                                                                                    header,
+                                                                                                                    hgroup,
+                                                                                                                    nav,
+                                                                                                                    section {
+                                                                                                                        position: relative;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    a:hover,
+                                                                                                                    a:active {
+                                                                                                                        /* Improves readability when focused and also mouse hovered in all browsers  */
+                                                                                                                        outline: 1;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    img {
+                                                                                                                        border: 0;
+                                                                                                                        position: relative;
+                                                                                                                        margin-left: 55%;
+                                                                                                                        margin-right: 3%;
+                                                                                                                        width: 55%;
+                                                                                                                        padding: 7px;
+                                                                                                                    }
+                                                                                                                    /*------ Structure ------ */
+                                                                                                                    
+                                                                                                                    .center {
+                                                                                                                        display: block;
+                                                                                                                        width: 50%;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    footer {
+                                                                                                                        height: auto;
+                                                                                                                        font-style: italic;
+                                                                                                                        font-size: 30px;
+                                                                                                                        line-height: 1.3125;
+                                                                                                                        text-align: center;
+                                                                                                                        padding: 690px;
+                                                                                                                        margin-left: 10px;
+                                                                                                                    }
+                                                                                                                    /* ----- Global ------ */
+                                                                                                                    
+                                                                                                                    button,
+                                                                                                                    input,
+                                                                                                                    select,
+                                                                                                                    textarea {
+                                                                                                                        height: auto;
+                                                                                                                        position: fixed;
+                                                                                                                        color: #000000;
+                                                                                                                        font-family: Garamond;
+                                                                                                                        font-size: 24px;
+                                                                                                                        font-weight: 300;
+                                                                                                                        line-height: 1.615;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    body {
+                                                                                                                        height: auto;
+                                                                                                                        position: relative;
+                                                                                                                        font-family: Garamond;
+                                                                                                                        font-size: 24px;
+                                                                                                                        font-weight: 300;
+                                                                                                                        background: rgb(0, 0, 0) url("http://bg.vessysday.com/wp-content/uploads/2013/01/pattern.png");
+                                                                                                                        background-repeat: repeat;
+                                                                                                                        background-position: center;
+                                                                                                                        padding: 55px;
+                                                                                                                        margin-left: 0%;
+                                                                                                                        margin-right: 4%;
+                                                                                                                    }
+                                                                                                                    /*----- Headings------ */
+                                                                                                                    
+                                                                                                                    h2 {
+                                                                                                                        clear: both;
+                                                                                                                        font-style: italic;
+                                                                                                                        height: auto;
+                                                                                                                        font-family: Garamond serif;
+                                                                                                                        font-size: 4.2rem;
+                                                                                                                        line-height: 1.101;
+                                                                                                                        margin-left: 35%;
+                                                                                                                        margin-left: 0%;
+                                                                                                                        margin-right: 2%;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    h1+.center {
+                                                                                                                        font-family: 'Raleway', "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+                                                                                                                        font-size: 25px;
+                                                                                                                        font-size: 2.5rem;
+                                                                                                                        /*1 rem = 16 px*/
+                                                                                                                        line-height: 1.17;
+                                                                                                                        margin-bottom: 0;
+                                                                                                                        padding-top: 0;
+                                                                                                                    }
+                                                                                                                    /*===================== Navigation Bar =====================*/
+                                                                                                                    
+                                                                                                                    nav {
+                                                                                                                        background-color: #2C3E50;
+                                                                                                                        /* Menu BG Color */
+                                                                                                                        position: fixed;
+                                                                                                                        width: 100%;
+                                                                                                                        top: 0px;
+                                                                                                                        left: 0px;
+                                                                                                                        z-index: 1;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #menu-wrapper {
+                                                                                                                        width: 90%;
+                                                                                                                        margin: auto;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #menu {
+                                                                                                                        display: none;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #logo {
+                                                                                                                        margin: 1px;
+                                                                                                                        display: inline-block;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #logo h1 {
+                                                                                                                        color: white;
+                                                                                                                        padding: 10px 0px;
+                                                                                                                        margin: 1px;
+                                                                                                                        font-size: 43px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #navBar {
+                                                                                                                        display: inline-block;
+                                                                                                                        position: fixed;
+                                                                                                                        right: 5%;
+                                                                                                                        margin-top: 10px;
+                                                                                                                        padding: 8px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #navBar a {
+                                                                                                                        text-decoration: none;
+                                                                                                                        color: white;
+                                                                                                                        padding: 10px;
+                                                                                                                    }
+                                                                                                                    /* Smaller Screen Size */
+                                                                                                                    
+                                                                                                                    @media (max-width: 900px)
+                                                                                                                    /* For Tablts */
+                                                                                                                    
+                                                                                                                    {
+                                                                                                                        #logo h1 {
+                                                                                                                            color: white;
+                                                                                                                            padding: 10px 0px;
+                                                                                                                            margin: 0px;
+                                                                                                                            font-size: 20px;
+                                                                                                                        }
+                                                                                                                        #logo {
+                                                                                                                            margin: 0px;
+                                                                                                                            display: inline-block;
+                                                                                                                        }
+                                                                                                                        #navBar {
+                                                                                                                            margin-top: 5px;
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    @media (max-width: 760px)
+                                                                                                                    /* For Mobile Phones */
+                                                                                                                    
+                                                                                                                    {
+                                                                                                                        #navBar {
+                                                                                                                            display: none;
+                                                                                                                        }
+                                                                                                                        #menu {
+                                                                                                                            display: inline-block;
+                                                                                                                            position: fixed;
+                                                                                                                            color: white;
+                                                                                                                            right: 5%;
+                                                                                                                            margin: 1px;
+                                                                                                                            padding: 8px;
+                                                                                                                        }
+                                                                                                                        #navBar a {
+                                                                                                                            display: block;
+                                                                                                                            background-color: #2C3E50;
+                                                                                                                            position: relative;
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    h3 {
+                                                                                                                        text-align: left;
+                                                                                                                        font-style: italic;
+                                                                                                                        height: auto;
+                                                                                                                        font-family: Garamond serif;
+                                                                                                                        font-size: 3.2rem;
+                                                                                                                        line-height: 1.101;
+                                                                                                                        margin: auto;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .boxed {
+                                                                                                                        padding: 5px;
+                                                                                                                        text-align: right;
+                                                                                                                        height: 3px;
+                                                                                                                        position: fixed;
+                                                                                                                        font-family: Garamond;
+                                                                                                                        font-size: 35px;
+                                                                                                                        font-weight: 30;
+                                                                                                                        line-height: 1.2;
+                                                                                                                        max-width: 1000px;
+                                                                                                                        margin-right: 60%;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    ul {
+                                                                                                                        padding: 10px;
+                                                                                                                        text-align: left;
+                                                                                                                        height: 10px;
+                                                                                                                        color: rgb(80, 156, 218);
+                                                                                                                        position: relative;
+                                                                                                                        left: 56px;
+                                                                                                                        font-family: Garamond;
+                                                                                                                        font-size: 26px;
+                                                                                                                        font-weight: 30;
+                                                                                                                        line-height: 1;
+                                                                                                                        max-width: 300px;
+                                                                                                                        margin-right: 25%
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    ol {
+                                                                                                                        padding: 2px;
+                                                                                                                        color: rgb(178, 206, 79);
+                                                                                                                        text-align: left;
+                                                                                                                        height: 3px;
+                                                                                                                        position: relative;
+                                                                                                                        left: 200px;
+                                                                                                                        font-family: Garamond;
+                                                                                                                        font-size: 25px;
+                                                                                                                        font-weight: 30;
+                                                                                                                        line-height: 1;
+                                                                                                                        margin-right: 56%;
+                                                                                                                        max-width: 7000px;
+                                                                                                                        margin-right: 35%;

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <title> Contact Form </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel=" stylesheet " href="stylesheetfeedback.css " type="text/css " media="screen ">
+    <link rel="script" src="main.js"></link>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+
+    <nav id="main">
+
+        <script src="main.js"></script>
+        <nav class="cover ">
+            <h2 class="contact ">Contact Me</h2>
+            <form id="contactform ">
+                <p class="contact "><label for="name ">Name</label></p>
+                <input id="name " name="name " placeholder="First and last name " required=" " tabindex="1 " type="text ">
+
+                <p class="contact "><label for="email ">Email</label></p>
+                <input id="email " name="email " placeholder="example@domain.com " required=" " tabindex="2 " type="text ">
+
+                <p class="contact "><label for="Subject ">Subject</label></p>
+                <input id="subject " name="subject " placeholder="Subject " required=" " tabindex="2 " type="text ">
+
+                <p class="contact "><label for="comment ">Your Message</label></p>
+                <textarea name="comment " id="comment " tabindex="4 "></textarea> <br>
+                <!-- <input name="submit " id="submit " tabindex="5 " value="Send Message " type="submit "> -->
+                <button onclick="sendContact();">Send message</button>
+            </form>
+        </nav>
+        <footer style="float:right; padding-right:30px;padding-bottom:30px; color:rgb(161, 164, 167) "><a href="index.html"> Back to homepage </a></footer>
+</body>
+
+</html>
